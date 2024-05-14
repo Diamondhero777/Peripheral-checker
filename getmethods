@@ -1,0 +1,5 @@
+local methods = peripheral.getMethods( "top" )
+
+for k, v in pairs( methods ) do -- iterate through the methods available to the peripheral
+    print( v ) -- print them to the screen
+  end
